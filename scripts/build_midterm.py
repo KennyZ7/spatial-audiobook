@@ -1,6 +1,9 @@
 """Build the midterm DOCX from its reviewed Markdown (requires python-docx/Pillow)."""
 from pathlib import Path
 import re
+import io
+import zipfile
+from lxml import etree
 from docx import Document
 from docx.shared import Cm, Pt, RGBColor
 from docx.oxml import OxmlElement
@@ -22,12 +25,12 @@ def main():
     for i,label in enumerate(labels):
         x=20+i*264
         d.rounded_rectangle((x,90,x+232,200),radius=12,fill='#e9f0ec',outline='#3e6555',width=2)
-        d.text((x+116,145),label,font=font,fill='#253e33',anchor='mm')
+        d.text((x+116,145),label,font=font,fill='#000000',anchor='mm')
         if i<5:
             d.line((x+234,145,x+260,145),fill='#3e6555',width=3)
             d.polygon([(x+260,145),(x+250,139),(x+250,151)],fill='#3e6555')
-    d.text((800,275),'工程 JSON 保存原文 角色 事件 时间 轨迹与版本',font=font,fill='#253e33',anchor='mm')
-    d.text((800,330),'历史成品快照 → WAV 分轨包 HTML报告 CSV',font=font,fill='#253e33',anchor='mm')
+    d.text((800,275),'工程 JSON 保存原文 角色 事件 时间 轨迹与版本',font=font,fill='#000000',anchor='mm')
+    d.text((800,330),'历史成品快照 → WAV 分轨包 HTML报告 CSV',font=font,fill='#000000',anchor='mm')
     im.save(FOLDER/'evidence'/'architecture.png')
     doc=Document();sec=doc.sections[0]
     for border in list(doc.styles.element.iter(qn('w:pBdr'))):
@@ -81,7 +84,34 @@ def main():
             if line.startswith('['):
                 for r in p.runs:r.font.size=Pt(9)
     doc.core_properties.author='项目组';doc.core_properties.title='三维动态音景自动生成系统中期检查报告'
-    doc.save(FOLDER/'中期检查报告.docx')
+    # Explicit black overrides theme/accent and hyperlink colors in all styles.
+    for style in doc.styles:
+        rpr=style.element.find(qn('w:rPr'))
+        if rpr is None:
+            rpr=OxmlElement('w:rPr');style.element.append(rpr)
+        for color in list(rpr.findall(qn('w:color'))):rpr.remove(color)
+        color=OxmlElement('w:color');color.set(qn('w:val'),'000000');rpr.append(color)
+    for part in doc.part.package.parts:
+        element=getattr(part,'element',None)
+        if element is None:continue
+        for run in element.iter(qn('w:r')):
+            rpr=run.find(qn('w:rPr'))
+            if rpr is None:rpr=OxmlElement('w:rPr');run.insert(0,rpr)
+            for color in list(rpr.findall(qn('w:color'))):rpr.remove(color)
+            color=OxmlElement('w:color');color.set(qn('w:val'),'000000');rpr.append(color)
+        for color in element.iter(qn('w:color')):
+            color.attrib.clear();color.set(qn('w:val'),'000000')
+    buffer=io.BytesIO();doc.save(buffer)
+    # stylesWithEffects is an opaque package part in python-docx; normalize it too.
+    with zipfile.ZipFile(buffer) as source, zipfile.ZipFile(FOLDER/'中期检查报告.docx','w',compression=zipfile.ZIP_DEFLATED) as target:
+        for entry in source.infolist():
+            raw=source.read(entry.filename)
+            if entry.filename.startswith('word/') and entry.filename.endswith('.xml'):
+                root=etree.fromstring(raw)
+                for color in root.iter(qn('w:color')):
+                    color.attrib.clear();color.set(qn('w:val'),'000000')
+                raw=etree.tostring(root,xml_declaration=True,encoding='UTF-8',standalone=True)
+            target.writestr(entry,raw)
     print('DOCX created')
 
 if __name__=='__main__':main()
