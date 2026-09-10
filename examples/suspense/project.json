@@ -1,0 +1,1381 @@
+{
+  "schema_version": 1,
+  "id": "shared_suspense",
+  "revision": 1,
+  "title": "十一点十七分 · 共享环绕示例",
+  "source": "雨已经下了三个小时。旧档案馆的门厅里只亮着一盏灯，光落在积水上，像一张被揉皱的纸。林舟站在走廊左侧，手里攥着管理员留下的钥匙。右边的许宁把手电压低，照向通往二楼的木梯。\n“你确定录音是从这里传出来的？”许宁问。\n林舟点了点头。“每天夜里十一点十七分，都是同一句话。可档案馆停电已经一个星期了。”\n远处街道传来汽车低沉的引擎声，很快又被雨声吞没。两个人没有再说话。楼上传来一下闷响，像有人把沉重的箱子放在地板上。许宁抬起头，手电的光沿着墙慢慢移到天花板。\n“上面有人。”她的声音压得很低。\n林舟刚要回答，身后的走廊里响起脚步声。起初很远，隔着几扇门，随后越来越近。每一步之间的间隔完全一样。林舟没有回头。他看见许宁的脸色变了，她一直盯着他身后的黑暗。\n“别动。”许宁说，“那不是从楼梯下来的。”\n脚步停在门厅外。门轴缓缓发出一声长响，冷风从两人之间穿过去。林舟把钥匙插进面前的锁孔，试了两次，却发现锁孔里面已经插着另一把钥匙。\n楼上又响了一下。这一次，就在他们头顶。\n“林舟，”许宁说，“把手电给我。”\n他向右递出手电。光束离开门的一瞬间，门后有人轻轻敲了三下。墙上的钟停在十一点十七分。",
+  "mode": "drama",
+  "characters": [
+    {
+      "id": "narrator",
+      "name": "旁白",
+      "voice": "Chinese (Mandarin)_Reliable_Executive"
+    },
+    {
+      "id": "c1",
+      "name": "许宁",
+      "voice": "Chinese (Mandarin)_Gentleman"
+    },
+    {
+      "id": "c2",
+      "name": "林舟",
+      "voice": "Chinese (Mandarin)_Warm_Bestie"
+    }
+  ],
+  "events": [
+    {
+      "id": "s0",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "雨已经下了三个小时。",
+      "original": "雨已经下了三个小时。",
+      "source_start": 0,
+      "source_end": 10,
+      "emotion": "calm",
+      "speed": 1.0,
+      "asset_id": "shared_s0",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s1",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "旧档案馆的门厅里只亮着一盏灯，光落在积水上，像一张被揉皱的纸。",
+      "original": "旧档案馆的门厅里只亮着一盏灯，光落在积水上，像一张被揉皱的纸。",
+      "source_start": 10,
+      "source_end": 41,
+      "emotion": "calm",
+      "speed": 1.0,
+      "asset_id": "shared_s1",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s2",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "林舟站在走廊左侧，手里攥着管理员留下的钥匙。",
+      "original": "林舟站在走廊左侧，手里攥着管理员留下的钥匙。",
+      "source_start": 41,
+      "source_end": 63,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s2",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s3",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "右边的许宁把手电压低，照向通往二楼的木梯。",
+      "original": "右边的许宁把手电压低，照向通往二楼的木梯。\n",
+      "source_start": 63,
+      "source_end": 85,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s3",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s4",
+      "kind": "speech",
+      "character_id": "c1",
+      "text": "你确定录音是从这里传出来的？",
+      "original": "“你确定录音是从这里传出来的？”",
+      "source_start": 85,
+      "source_end": 101,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s4",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s5",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "许宁问。",
+      "original": "许宁问。\n",
+      "source_start": 101,
+      "source_end": 106,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s5",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s6",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "林舟点了点头。",
+      "original": "林舟点了点头。",
+      "source_start": 106,
+      "source_end": 113,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s6",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s7",
+      "kind": "speech",
+      "character_id": "c2",
+      "text": "每天夜里十一点十七分，都是同一句话。可档案馆停电已经一个星期了。",
+      "original": "“每天夜里十一点十七分，都是同一句话。可档案馆停电已经一个星期了。”",
+      "source_start": 113,
+      "source_end": 147,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s7",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s8",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "",
+      "original": "\n",
+      "source_start": 147,
+      "source_end": 148,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "s9",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "远处街道传来汽车低沉的引擎声，很快又被雨声吞没。",
+      "original": "远处街道传来汽车低沉的引擎声，很快又被雨声吞没。",
+      "source_start": 148,
+      "source_end": 172,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s9",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s10",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "两个人没有再说话。",
+      "original": "两个人没有再说话。",
+      "source_start": 172,
+      "source_end": 181,
+      "emotion": "calm",
+      "speed": 1.0,
+      "asset_id": "shared_s10",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s11",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "楼上传来一下闷响，像有人把沉重的箱子放在地板上。",
+      "original": "楼上传来一下闷响，像有人把沉重的箱子放在地板上。",
+      "source_start": 181,
+      "source_end": 205,
+      "emotion": "surprised",
+      "speed": 1.0,
+      "asset_id": "shared_s11",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 2.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s12",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "许宁抬起头，手电的光沿着墙慢慢移到天花板。",
+      "original": "许宁抬起头，手电的光沿着墙慢慢移到天花板。\n",
+      "source_start": 205,
+      "source_end": 227,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s12",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s13",
+      "kind": "speech",
+      "character_id": "c1",
+      "text": "上面有人。",
+      "original": "“上面有人。”",
+      "source_start": 227,
+      "source_end": 234,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s13",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s14",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "她的声音压得很低。",
+      "original": "她的声音压得很低。\n",
+      "source_start": 234,
+      "source_end": 244,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s14",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s15",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "林舟刚要回答，身后的走廊里响起脚步声。",
+      "original": "林舟刚要回答，身后的走廊里响起脚步声。",
+      "source_start": 244,
+      "source_end": 263,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s15",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s16",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "起初很远，隔着几扇门，随后越来越近。",
+      "original": "起初很远，隔着几扇门，随后越来越近。",
+      "source_start": 263,
+      "source_end": 281,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s16",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": -3.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s17",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "每一步之间的间隔完全一样。",
+      "original": "每一步之间的间隔完全一样。",
+      "source_start": 281,
+      "source_end": 294,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s17",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": -3.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s18",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "林舟没有回头。",
+      "original": "林舟没有回头。",
+      "source_start": 294,
+      "source_end": 301,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s18",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s19",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "他看见许宁的脸色变了，她一直盯着他身后的黑暗。",
+      "original": "他看见许宁的脸色变了，她一直盯着他身后的黑暗。\n",
+      "source_start": 301,
+      "source_end": 325,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s19",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s20",
+      "kind": "speech",
+      "character_id": "c1",
+      "text": "别动。",
+      "original": "“别动。”",
+      "source_start": 325,
+      "source_end": 330,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s20",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s21",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "许宁说，",
+      "original": "许宁说，",
+      "source_start": 330,
+      "source_end": 334,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s21",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s22",
+      "kind": "speech",
+      "character_id": "c1",
+      "text": "那不是从楼梯下来的。",
+      "original": "“那不是从楼梯下来的。”",
+      "source_start": 334,
+      "source_end": 346,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s22",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s23",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "",
+      "original": "\n",
+      "source_start": 346,
+      "source_end": 347,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "s24",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "脚步停在门厅外。",
+      "original": "脚步停在门厅外。",
+      "source_start": 347,
+      "source_end": 355,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s24",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": -3.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s25",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "门轴缓缓发出一声长响，冷风从两人之间穿过去。",
+      "original": "门轴缓缓发出一声长响，冷风从两人之间穿过去。",
+      "source_start": 355,
+      "source_end": 377,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s25",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s26",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "林舟把钥匙插进面前的锁孔，试了两次，却发现锁孔里面已经插着另一把钥匙。",
+      "original": "林舟把钥匙插进面前的锁孔，试了两次，却发现锁孔里面已经插着另一把钥匙。\n",
+      "source_start": 377,
+      "source_end": 413,
+      "emotion": "surprised",
+      "speed": 1.0,
+      "asset_id": "shared_s26",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s27",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "楼上又响了一下。",
+      "original": "楼上又响了一下。",
+      "source_start": 413,
+      "source_end": 421,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s27",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 2.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s28",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "这一次，就在他们头顶。",
+      "original": "这一次，就在他们头顶。\n",
+      "source_start": 421,
+      "source_end": 433,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s28",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 2.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s29",
+      "kind": "speech",
+      "character_id": "c1",
+      "text": "林舟，",
+      "original": "“林舟，”",
+      "source_start": 433,
+      "source_end": 438,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s29",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s30",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "许宁说，",
+      "original": "许宁说，",
+      "source_start": 438,
+      "source_end": 442,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s30",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s31",
+      "kind": "speech",
+      "character_id": "c1",
+      "text": "把手电给我。",
+      "original": "“把手电给我。”",
+      "source_start": 442,
+      "source_end": 450,
+      "emotion": "fearful",
+      "speed": 1.0,
+      "asset_id": "shared_s31",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s32",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "",
+      "original": "\n",
+      "source_start": 450,
+      "source_end": 451,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "s33",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "他向右递出手电。",
+      "original": "他向右递出手电。",
+      "source_start": 451,
+      "source_end": 459,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_s33",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -1.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s34",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "光束离开门的一瞬间，门后有人轻轻敲了三下。",
+      "original": "光束离开门的一瞬间，门后有人轻轻敲了三下。",
+      "source_start": 459,
+      "source_end": 480,
+      "emotion": "surprised",
+      "speed": 1.0,
+      "asset_id": "shared_s34",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "s35",
+      "kind": "speech",
+      "character_id": "narrator",
+      "text": "墙上的钟停在十一点十七分。",
+      "original": "墙上的钟停在十一点十七分。",
+      "source_start": 480,
+      "source_end": 493,
+      "emotion": "calm",
+      "speed": 1.0,
+      "asset_id": "shared_s35",
+      "anchor_id": "",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -3.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx0",
+      "kind": "ambience",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx0",
+      "anchor_id": "s0",
+      "placement": "before",
+      "offset": 0.0,
+      "start": null,
+      "duration": 3.0,
+      "gain_db": 0.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -4.0,
+          "y": 1.0,
+          "z": 3.0
+        },
+        {
+          "t": 3.0,
+          "x": 4.0,
+          "y": 1.0,
+          "z": 3.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx1",
+      "kind": "ambience",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx1",
+      "anchor_id": "s9",
+      "placement": "within",
+      "offset": 0.0,
+      "start": null,
+      "duration": 4.0,
+      "gain_db": -12.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -6.0,
+          "y": 0.0,
+          "z": -4.0
+        },
+        {
+          "t": 2.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": -3.0
+        },
+        {
+          "t": 4.0,
+          "x": 6.0,
+          "y": 0.0,
+          "z": -4.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx2",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx2",
+      "anchor_id": "s11",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": 1.2,
+      "gain_db": 6.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -2.0,
+          "y": 4.0,
+          "z": 0.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx3",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx3",
+      "anchor_id": "s15",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": 6.0,
+      "gain_db": 6.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -3.0,
+          "y": 0.0,
+          "z": -6.0
+        },
+        {
+          "t": 3.0,
+          "x": 2.0,
+          "y": 0.0,
+          "z": -3.0
+        },
+        {
+          "t": 6.0,
+          "x": 0.8,
+          "y": 0.0,
+          "z": -0.6
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx4",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx4",
+      "anchor_id": "s25",
+      "placement": "within",
+      "offset": 0.0,
+      "start": null,
+      "duration": 3.0,
+      "gain_db": -7.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 3.0,
+          "y": 0.0,
+          "z": 2.0
+        },
+        {
+          "t": 3.0,
+          "x": 2.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx5",
+      "kind": "ambience",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx5",
+      "anchor_id": "s25",
+      "placement": "within",
+      "offset": 1.0,
+      "start": null,
+      "duration": 4.0,
+      "gain_db": -7.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 1.0,
+          "z": 4.0
+        },
+        {
+          "t": 2.0,
+          "x": -2.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "t": 4.0,
+          "x": 0.0,
+          "y": 1.0,
+          "z": -4.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx6",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx6",
+      "anchor_id": "s27",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": 1.0,
+      "gain_db": 6.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 2.0,
+          "y": 4.0,
+          "z": -1.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx7",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx7",
+      "anchor_id": "s34",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": 1.0,
+      "gain_db": -4.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -2.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fxd07cc396af7c4c329d124ae137ddd552",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "door_close",
+      "anchor_id": "s11",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": 6.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.0
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "fx5ddc17bc218247acad945e4609966f54",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx5ddc17bc218247acad945e4609966f54",
+      "anchor_id": "s15",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": null,
+      "gain_db": -12.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": -0.8,
+          "y": 0.0,
+          "z": -0.6
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx22cd67e573c74d97a86a611d83204b42",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx22cd67e573c74d97a86a611d83204b42",
+      "anchor_id": "s34",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": 1.0,
+      "gain_db": 6.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 2.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fx482752c8357747f4898c00a1e5d8b322",
+      "kind": "sfx",
+      "character_id": "",
+      "text": "",
+      "original": "",
+      "source_start": 0,
+      "source_end": 0,
+      "emotion": "neutral",
+      "speed": 1.0,
+      "asset_id": "shared_fx482752c8357747f4898c00a1e5d8b322",
+      "anchor_id": "s34",
+      "placement": "after",
+      "offset": 0.0,
+      "start": null,
+      "duration": 1.0,
+      "gain_db": 6.0,
+      "points": [
+        {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.2
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "render": {
+    "profile": "H3",
+    "room": 0.18,
+    "sample_rate": 48000
+  },
+  "notes": [
+    "脱敏协作示例；所有启用事件使用随附干声，安装HRTF后可免费重渲染。"
+  ],
+  "outputs": [],
+  "metrics": {}
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>循意生境 · 空间有声书工作台</title><link rel="icon" href="/static/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/">循意生境<span>SPATIAL AUDIO STUDIO</span></a>
+  <nav aria-label="工作区"><button class="nav active" data-view="workspace"><span>01</span> 创作工作台</button><button class="nav" data-view="calibration"><span>02</span> 空间试听</button><button class="nav" data-view="settings"><span>03</span> 服务与费用</button></nav>
+  <div class="side-label">本地工程<button id="newProject" class="icon" title="新建工程" aria-label="新建工程">＋</button></div>
+  <div id="projects" class="project-list"></div>
+  <div class="sidebar-bottom"><span class="dot"></span> 本机运行 · 耳机试听<p id="budgetLabel">费用读取中</p></div>
+</aside>
+<main>
+  <header class="topbar"><div><span class="eyebrow">创作 / SPATIAL WORKSPACE</span><h1 id="pageTitle">声音，从这里发生。</h1></div><div class="top-actions"><span id="serviceStatus" class="muted">正在连接</span><button id="saveProject" class="secondary">保存工程</button></div></header>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <section id="workspace" class="view active">
+    <div class="work-grid">
+      <section class="script-panel">
+        <div class="section-heading"><h2>故事文本</h2><button id="loadExample" class="text-button">载入悬疑示例 ↗</button></div>
+        <label>工程名称<input id="projectTitle" maxlength="80" placeholder="给这个场景起一个名字"></label>
+        <div class="segmented" role="group" aria-label="改编模式"><button data-mode="faithful" class="selected">忠实朗读</button><button data-mode="drama">适度广播剧化</button></div>
+        <label class="sr-only" for="source">小说原文</label><textarea id="source" maxlength="2000" placeholder="粘贴一段小说。人物、动作和环境将成为可编辑的声音事件。"></textarea>
+        <div class="subline"><span>建议 500–2000 字</span><span id="charCount">0 / 2000</span></div>
+        <div class="button-row"><button id="analyze" class="primary">生成声音脚本 <span>↗</span></button><button id="localDraft" class="secondary" title="不调用模型，只按原文分句">免费分句</button></div>
+        <p class="hint">AI 脚本需配置 DeepSeek。免费分句生成旁白草稿，可手动指定角色。</p>
+        <details class="characters" open><summary>角色与音色 <span id="characterCount">0</span></summary><div id="characters"></div><button id="addCharacter" class="text-button">＋ 添加角色</button></details>
+      </section>
+      <section class="events-panel">
+        <div class="section-heading"><h2>声音事件 <small id="eventCount">0</small></h2><button id="addEffect" class="text-button">＋ 音效</button></div>
+        <div class="event-legend"><span>序号 / 内容</span><span>类型 · 时间</span></div>
+        <div id="events" class="events"><div class="empty"><span class="empty-symbol">≋</span><h3>让故事拥有空间</h3><p>载入示例或输入小说，<br>生成第一份声音脚本。</p></div></div>
+        <div id="projectNotes" class="notes"></div>
+        <div class="task-area"><div class="task-caption"><span id="taskMessage">准备就绪</span><span id="taskPercent"></span></div><progress id="taskProgress" value="0" max="1"></progress></div>
+        <div class="render-bar"><div><strong id="estimate">等待脚本</strong><span class="hint">成功的配音会自动复用</span></div><button id="generate" class="primary">合成并渲染 ↗</button></div>
+      </section>
+      <aside class="inspector-panel">
+        <div class="stage"><div class="stage-label"><span>声源位置</span><span>俯视图 · 前方 ↑</span></div><svg id="stage" viewBox="0 0 300 240" role="img" aria-label="声源位置俯视图"><defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#ffffff" stroke-opacity=".045"/></pattern></defs><rect width="300" height="240" fill="url(#grid)"/><circle cx="150" cy="120" r="80" class="ring"/><circle cx="150" cy="120" r="40" class="ring"/><path d="M150 24V216M40 120H260" class="axis"/><path d="M144 125 L150 110 L156 125 Z" fill="#d6ded6"/><path id="trajectoryLine" fill="none" stroke="#c6ed88" stroke-width="1.5" stroke-dasharray="4 4"/><circle id="sourceDot" cx="150" cy="70" r="6" fill="#c6ed88"/><text x="150" y="20" text-anchor="middle">前</text><text x="150" y="232" text-anchor="middle">后</text><text x="18" y="125">左</text><text x="273" y="125">右</text></svg><div id="positionLabel" class="stage-footer">固定旁观视角</div></div>
+        <div class="inspector-body"><h2>事件设置</h2><div id="inspector"><p class="muted">选中一条声音事件，修改它的内容与位置。</p></div></div>
+      </aside>
+    </div>
+    <section class="output-panel"><div class="output-title"><span class="eyebrow">OUTPUT</span><h2>成品试听</h2><p id="outputMeta" class="muted">完成渲染后，音频将出现在这里。</p></div><div class="output-player"><audio id="outputAudio" controls preload="metadata"></audio><div class="button-row"><button id="rerender" class="secondary">仅重新渲染 · 免费</button><a id="downloadWav" class="text-button disabled">下载 WAV ↓</a><a id="downloadReport" class="text-button disabled">下载可视化报告 ↓</a><a id="downloadCsv" class="text-button disabled">下载 CSV ↓</a><a id="downloadBundle" class="text-button disabled">工程与分轨 ↓</a></div><label>历史成品<select id="outputHistory"><option>尚无成品</option></select></label></div></section>
+  </section>
+  <section id="calibration" class="view">
+    <div class="calibration-intro"><span class="eyebrow">LISTEN FIRST</span><h2>找到适合你的空间听感。</h2><p>戴上同一副耳机，比较三套实测配置。先降低音量，再判断前后、上下与运动方向。配置选择不是个人 HRTF 测量。</p></div>
+    <div class="calibration-grid"><section><h3>01 / 选择配置</h3><div class="profiles" id="profiles"></div><label>房间反射强度<input id="calRoom" type="range" min="0" max="0.6" value="0.18" step="0.02"></label><button id="useProfile" class="secondary">将此配置用于当前工程</button><h3>02 / 选择试听</h3><div id="directions" class="direction-grid"></div><label class="checkbox"><input type="checkbox" id="blind">盲听：随机方向，提交判断后揭晓</label><button id="startCalibration" class="primary">生成试听片段 ↗</button><p class="hint">本地渲染，不调用付费模型。</p></section>
+    <section class="listening-panel"><div class="listening-orbit"><span>◎</span><p id="trialLabel">准备好，听一听四周。</p></div><audio id="calAudio" controls></audio><h3>03 / 记录听感</h3><label>你听到的方向<select id="guess"></select></label><label>空间感评分<select id="rating"><option value="1">1 · 不明显</option><option value="2">2 · 较弱</option><option value="3" selected>3 · 一般</option><option value="4">4 · 明显</option><option value="5">5 · 很清楚</option></select></label><label>备注<textarea id="feedbackNotes" rows="2" maxlength="500" placeholder="例如：左右明确，上方仍像在脑内"></textarea></label><button id="submitFeedback" class="secondary" disabled>保存判断</button><p id="feedbackResult" role="status"></p></section></div>
+    <details><summary>已保存的听感记录</summary><div id="feedbackHistory"></div></details>
+  </section>
+  <section id="settings" class="view">
+    <div class="settings-grid"><section><h2>模型服务</h2><p class="muted">密钥仅保存在本机后端，不回显到页面。留空保持原密钥。</p><form id="settingsForm" autocomplete="off"><label>DeepSeek API Key<input type="password" name="deepseek_key" placeholder="sk-…" autocomplete="new-password"></label><label>DeepSeek 模型<input name="deepseek_model" value="deepseek-v4-flash" required></label><label>MiniMax API Key<input type="password" name="minimax_key" placeholder="输入普通按量计费 API Key" autocomplete="new-password"></label><label>配音模型<select name="tts_model"><option value="speech-2.8-hd">Speech 2.8 HD · 表现力优先</option><option value="speech-2.8-turbo">Speech 2.8 Turbo · 成本优先</option></select></label><h3>费用保护</h3><p class="hint">先核对官方费率。文本模型默认数值是保守估算，不是报价；供应商账单为准。</p><div class="two-col"><label>文本输入 / 元每百万 token<input name="input_per_million" type="number" step="0.01" min="0.01" required></label><label>文本输出 / 元每百万 token<input name="output_per_million" type="number" step="0.01" min="0.01" required></label></div><div class="two-col"><label>配音 / 元每万计费字符<input name="tts_per_10k" type="number" step="0.01" min="0.01" required></label><label>累计费用上限 / 元<input name="budget" type="number" min="1" max="50" required></label></div><label class="checkbox"><input name="rates_confirmed" type="checkbox">已核对费率，启用预算内付费生成</label><button class="primary" type="submit">保存服务设置</button></form><p class="hint"><a href="https://platform.minimaxi.com/docs/guides/pricing-paygo" target="_blank" rel="noreferrer">MiniMax 计费说明 ↗</a> · <a href="https://api-docs.deepseek.com/quick_start/pricing" target="_blank" rel="noreferrer">DeepSeek 模型与价格 ↗</a></p></section><section><h2>调用记录</h2><p class="muted">失败且计费结果不确定的请求，保留预估费用。</p><div id="ledger"></div><h3>素材库</h3><p class="hint">支持 WAV、FLAC、OGG，单个最大20MB、180秒。导入后可在事件设置中选择。</p><label class="upload-label">＋ 导入音频素材<input id="upload" type="file" accept=".wav,.flac,.ogg"></label><div id="assetList"></div></section></div>
+  </section>
+  <footer>循意生境 <span>本地创作原型 · 48 kHz 双耳音频</span></footer>
+</main>
+</body></html>

@@ -1,0 +1,20 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const {pathToFileURL}=require('url');
+const path=require('path');
+(async()=>{
+ const browser=await chromium.launch({headless:true,channel:'msedge'});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(pathToFileURL(path.resolve(process.env.REPORT_FILE || 'examples/suspense/timeline.html')).href);
+ if(await page.locator('#events > tbody > tr').count()!==44)throw Error('Wrong event count');
+ await page.selectOption('#kind','sfx');
+ if(await page.locator('#events > tbody > tr:visible').count()!==8)throw Error('Filter mismatch');
+ await page.locator('.bar.sfx:visible').first().click();
+ if(!await page.locator('#events > tbody > tr:visible details[open]').count())throw Error('No trajectory expansion');
+ await page.fill('#search','NO_SUCH_EVENT_123');
+ if(await page.locator('#events > tbody > tr:visible').count())throw Error('Search failed');
+ await page.fill('#search','');await page.selectOption('#kind','');
+ if(process.env.REPORT_SCREENSHOT)await page.screenshot({path:process.env.REPORT_SCREENSHOT,fullPage:false});
+ if(errors.length)throw Error(errors.join('\n'));
+ await browser.close();console.log('Offline report: 44 events, filtering, search and trajectory expansion passed.');
+})().catch(e=>{console.error(e);process.exit(1)});

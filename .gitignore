@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+local.settings.json
+*.log
+tmp/
+output/
+exports/
+.env
+.env.*
+!.env.example
+# Original institutional documents contain personal contact information.
+/*.pdf
+/*.docx
+/*.zip
+/expand_xunyi_plan.py
+/项目运行思路说明.md
+node_modules/

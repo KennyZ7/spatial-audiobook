@@ -1,0 +1,442 @@
+[
+  {
+    "id": "shared_s0",
+    "name": "示例配音 s0",
+    "kind": "speech",
+    "filename": "shared_s0.wav",
+    "duration": 2.171104166666667,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s1",
+    "name": "示例配音 s1",
+    "kind": "speech",
+    "filename": "shared_s1.wav",
+    "duration": 5.8,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s2",
+    "name": "示例配音 s2",
+    "kind": "speech",
+    "filename": "shared_s2.wav",
+    "duration": 4.133166666666667,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s3",
+    "name": "示例配音 s3",
+    "kind": "speech",
+    "filename": "shared_s3.wav",
+    "duration": 4.0054791666666665,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s4",
+    "name": "示例配音 s4",
+    "kind": "speech",
+    "filename": "shared_s4.wav",
+    "duration": 3.2,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s5",
+    "name": "示例配音 s5",
+    "kind": "speech",
+    "filename": "shared_s5.wav",
+    "duration": 0.97525,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s6",
+    "name": "示例配音 s6",
+    "kind": "speech",
+    "filename": "shared_s6.wav",
+    "duration": 1.3119375,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s7",
+    "name": "示例配音 s7",
+    "kind": "speech",
+    "filename": "shared_s7.wav",
+    "duration": 6.5248125,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s9",
+    "name": "示例配音 s9",
+    "kind": "speech",
+    "filename": "shared_s9.wav",
+    "duration": 4.388604166666667,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s10",
+    "name": "示例配音 s10",
+    "kind": "speech",
+    "filename": "shared_s10.wav",
+    "duration": 2.4,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s11",
+    "name": "示例配音 s11",
+    "kind": "speech",
+    "filename": "shared_s11.wav",
+    "duration": 4.9,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s12",
+    "name": "示例配音 s12",
+    "kind": "speech",
+    "filename": "shared_s12.wav",
+    "duration": 5.2,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s13",
+    "name": "示例配音 s13",
+    "kind": "speech",
+    "filename": "shared_s13.wav",
+    "duration": 1.567375,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s14",
+    "name": "示例配音 s14",
+    "kind": "speech",
+    "filename": "shared_s14.wav",
+    "duration": 1.9,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s15",
+    "name": "示例配音 s15",
+    "kind": "speech",
+    "filename": "shared_s15.wav",
+    "duration": 4.3,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s16",
+    "name": "示例配音 s16",
+    "kind": "speech",
+    "filename": "shared_s16.wav",
+    "duration": 4.6,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s17",
+    "name": "示例配音 s17",
+    "kind": "speech",
+    "filename": "shared_s17.wav",
+    "duration": 2.6,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s18",
+    "name": "示例配音 s18",
+    "kind": "speech",
+    "filename": "shared_s18.wav",
+    "duration": 1.9,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s19",
+    "name": "示例配音 s19",
+    "kind": "speech",
+    "filename": "shared_s19.wav",
+    "duration": 5.0,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s20",
+    "name": "示例配音 s20",
+    "kind": "speech",
+    "filename": "shared_s20.wav",
+    "duration": 1.0216666666666667,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s21",
+    "name": "示例配音 s21",
+    "kind": "speech",
+    "filename": "shared_s21.wav",
+    "duration": 1.0565416666666667,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s22",
+    "name": "示例配音 s22",
+    "kind": "speech",
+    "filename": "shared_s22.wav",
+    "duration": 1.9621041666666668,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s24",
+    "name": "示例配音 s24",
+    "kind": "speech",
+    "filename": "shared_s24.wav",
+    "duration": 1.8,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s25",
+    "name": "示例配音 s25",
+    "kind": "speech",
+    "filename": "shared_s25.wav",
+    "duration": 4.5,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s26",
+    "name": "示例配音 s26",
+    "kind": "speech",
+    "filename": "shared_s26.wav",
+    "duration": 8.6,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s27",
+    "name": "示例配音 s27",
+    "kind": "speech",
+    "filename": "shared_s27.wav",
+    "duration": 1.6,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s28",
+    "name": "示例配音 s28",
+    "kind": "speech",
+    "filename": "shared_s28.wav",
+    "duration": 2.9,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s29",
+    "name": "示例配音 s29",
+    "kind": "speech",
+    "filename": "shared_s29.wav",
+    "duration": 1.1842291666666667,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s30",
+    "name": "示例配音 s30",
+    "kind": "speech",
+    "filename": "shared_s30.wav",
+    "duration": 1.0565416666666667,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s31",
+    "name": "示例配音 s31",
+    "kind": "speech",
+    "filename": "shared_s31.wav",
+    "duration": 1.6,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s33",
+    "name": "示例配音 s33",
+    "kind": "speech",
+    "filename": "shared_s33.wav",
+    "duration": 1.4048125,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s34",
+    "name": "示例配音 s34",
+    "kind": "speech",
+    "filename": "shared_s34.wav",
+    "duration": 4.2,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_s35",
+    "name": "示例配音 s35",
+    "kind": "speech",
+    "filename": "shared_s35.wav",
+    "duration": 2.7,
+    "source": "本项目原创场景配音，协作演示",
+    "license": "仅用于本项目协作演示",
+    "synthetic": true
+  },
+  {
+    "id": "shared_fx0",
+    "name": "雨声（合成）",
+    "kind": "ambience",
+    "filename": "shared_fx0.wav",
+    "duration": 3.0,
+    "source": "本项目 scripts/setup_assets.py 程序合成；非实地录音",
+    "license": "CC0-1.0",
+    "synthetic": true
+  },
+  {
+    "id": "shared_fx1",
+    "name": "远处引擎（合成）",
+    "kind": "ambience",
+    "filename": "shared_fx1.wav",
+    "duration": 4.0,
+    "source": "本项目 scripts/setup_assets.py 程序合成；非实地录音",
+    "license": "CC0-1.0",
+    "synthetic": true
+  },
+  {
+    "id": "shared_fx2",
+    "name": "木板重击",
+    "kind": "sfx",
+    "filename": "shared_fx2.wav",
+    "duration": 1.2,
+    "source": "Kenney — Impact Sounds, https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "synthetic": false
+  },
+  {
+    "id": "shared_fx3",
+    "name": "环绕展示 · 连续水泥脚步（6秒10步）",
+    "kind": "sfx",
+    "filename": "shared_fx3.wav",
+    "duration": 6.0,
+    "source": "Derived from Kenney Impact Sounds: https://kenney.nl/assets/impact-sounds; 10 steps at 0.6s intervals, 5ms fades",
+    "license": "CC0-1.0",
+    "synthetic": false
+  },
+  {
+    "id": "shared_fx4",
+    "name": "门轴（合成）",
+    "kind": "sfx",
+    "filename": "shared_fx4.wav",
+    "duration": 3.0,
+    "source": "本项目 scripts/setup_assets.py 程序合成；非实地录音",
+    "license": "CC0-1.0",
+    "synthetic": true
+  },
+  {
+    "id": "shared_fx5",
+    "name": "风声（合成）",
+    "kind": "ambience",
+    "filename": "shared_fx5.wav",
+    "duration": 4.0,
+    "source": "本项目 scripts/setup_assets.py 程序合成；非实地录音",
+    "license": "CC0-1.0",
+    "synthetic": true
+  },
+  {
+    "id": "shared_fx6",
+    "name": "木板重击",
+    "kind": "sfx",
+    "filename": "shared_fx6.wav",
+    "duration": 1.0,
+    "source": "Kenney — Impact Sounds, https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "synthetic": false
+  },
+  {
+    "id": "shared_fx7",
+    "name": "木门轻敲",
+    "kind": "sfx",
+    "filename": "shared_fx7.wav",
+    "duration": 1.0,
+    "source": "Kenney — Impact Sounds, https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "synthetic": false
+  },
+  {
+    "id": "shared_fx5ddc17bc218247acad945e4609966f54",
+    "name": "木地板脚步",
+    "kind": "sfx",
+    "filename": "shared_fx5ddc17bc218247acad945e4609966f54.wav",
+    "duration": 0.24960416666666665,
+    "source": "Kenney — Impact Sounds, https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "synthetic": false
+  },
+  {
+    "id": "shared_fx22cd67e573c74d97a86a611d83204b42",
+    "name": "木门轻敲",
+    "kind": "sfx",
+    "filename": "shared_fx22cd67e573c74d97a86a611d83204b42.wav",
+    "duration": 1.0,
+    "source": "Kenney — Impact Sounds, https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "synthetic": false
+  },
+  {
+    "id": "shared_fx482752c8357747f4898c00a1e5d8b322",
+    "name": "木门轻敲",
+    "kind": "sfx",
+    "filename": "shared_fx482752c8357747f4898c00a1e5d8b322.wav",
+    "duration": 1.0,
+    "source": "Kenney — Impact Sounds, https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "synthetic": false
+  }
+]
